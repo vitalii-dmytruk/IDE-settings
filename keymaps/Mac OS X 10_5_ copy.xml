@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
   <action id="ActivateStructureToolWindow" />
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl meta q" />
+  </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
