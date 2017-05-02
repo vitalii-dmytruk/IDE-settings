@@ -6,8 +6,12 @@
           <option name="url" value="https://VitaliiDmytruk@bitbucket.org/pyrusman/class2career-importer.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/MelnykRoman/crawler.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/class2career.com" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/test" />
   </component>
 </application>
