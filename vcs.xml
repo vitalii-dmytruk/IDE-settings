@@ -14,8 +14,12 @@
           <option name="url" value="https://github.com/GIMGPO/g11n_portals-automation.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/DanyloStasenko/ExpenseManager.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/emc.com" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/trainee" />
   </component>
 </application>
