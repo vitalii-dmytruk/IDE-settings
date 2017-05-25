@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/DanyloStasenko/ExpenseManager.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Yerchik/Test_JPA.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/projects/trainee" />
