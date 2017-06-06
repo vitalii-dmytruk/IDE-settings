@@ -94,6 +94,10 @@
           <option name="url" value="https://github.com/KovalevuchMykhaylo/IntelliArts.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/vov4yk-k/PersonalExpensesManagement.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/projects/trainee" />
