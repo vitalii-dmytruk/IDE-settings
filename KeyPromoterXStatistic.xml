@@ -11,7 +11,6 @@
       </Statistic>
       <Statistic Action="Close">
         <Item>
-          <IdeaActionID />
           <ShortCut>'⌘W'</ShortCut>
           <Description>Close</Description>
           <Count>1</Count>
@@ -76,6 +75,14 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'Gradle'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'build'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'build'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
