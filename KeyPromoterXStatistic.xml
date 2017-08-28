@@ -118,6 +118,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Resume Program">
+        <Item>
+          <IdeaActionID>Resume</IdeaActionID>
+          <ShortCut>'⌥⌘R' or 'F9'</ShortCut>
+          <Description>Resume Program</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Synchronize">
         <Item>
           <IdeaActionID>DatabaseView.SynchronizeAction</IdeaActionID>
