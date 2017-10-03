@@ -14,7 +14,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'⌘[' or '⌥⌘←' or 'Button4 Click'</ShortCut>
           <Description>Back</Description>
-          <Count>63</Count>
+          <Count>67</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close">
@@ -77,7 +77,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>126</Count>
+          <Count>130</Count>
         </Item>
       </Statistic>
       <Statistic Action="Down the stack trace">
