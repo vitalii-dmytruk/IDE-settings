@@ -17,6 +17,14 @@
           <Count>72</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Build Project">
+        <Item>
+          <IdeaActionID>CompileDirty</IdeaActionID>
+          <ShortCut>'⌘F9'</ShortCut>
+          <Description>Build Project</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Close">
         <Item>
           <ShortCut>'⌘W'</ShortCut>
