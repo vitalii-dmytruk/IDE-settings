@@ -6,6 +6,9 @@
   <action id="ActivateGradleToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
+  <action id="ActivateMavenProjectsToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
   <action id="ActivateRESTClientToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
