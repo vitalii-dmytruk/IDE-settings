@@ -243,7 +243,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'demo.js'</Description>
-          <Count>10</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'ui'">
@@ -307,7 +307,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Start UI Server'</Description>
-          <Count>26</Count>
+          <Count>27</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'ThingsboardInstallApplication'">
@@ -347,7 +347,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'⌃⇧R'</ShortCut>
           <Description>Run 'demo.js'</Description>
-          <Count>22</Count>
+          <Count>24</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'schema.sql'... ">
