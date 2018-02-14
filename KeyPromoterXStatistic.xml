@@ -382,6 +382,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'test'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'test'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'thingsboard [install]'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
