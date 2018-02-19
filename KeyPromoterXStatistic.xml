@@ -61,7 +61,7 @@
           <IdeaActionID>Jdbc.OpenEditor.Grid.DDL</IdeaActionID>
           <ShortCut>'⌃⌘↑'</ShortCut>
           <Description>DDL</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Database">
@@ -395,7 +395,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'build'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'demo.js'">
