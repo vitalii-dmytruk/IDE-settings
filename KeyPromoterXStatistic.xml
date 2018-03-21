@@ -427,7 +427,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'ThingsboardServerApplication'</Description>
-          <Count>41</Count>
+          <Count>42</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Unnamed'">
