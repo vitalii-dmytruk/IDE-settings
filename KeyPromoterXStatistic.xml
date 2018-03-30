@@ -214,6 +214,14 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Modify Key...">
+        <Item>
+          <IdeaActionID>ModifyObject</IdeaActionID>
+          <ShortCut>'⌘F6'</ShortCut>
+          <Description>Modify Key...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Modify Table...">
         <Item>
           <IdeaActionID>ModifyObject</IdeaActionID>
@@ -243,7 +251,7 @@
           <IdeaActionID>DatabaseView.PropertiesAction</IdeaActionID>
           <ShortCut>'⌘I'</ShortCut>
           <Description>Properties</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rebase...">
