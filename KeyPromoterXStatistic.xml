@@ -278,6 +278,14 @@
           <Count>49</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'Build UI Server'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'Build UI Server'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'Gradle'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -307,7 +315,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'build'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'demo.js'">
