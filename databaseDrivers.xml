@@ -104,6 +104,14 @@
       <option name="send-app-info" value="true" />
       <option name="auto-commit" value="false" />
     </driver>
+    <driver id="java.sql.Driver" name="Cassandra JDBC" dialect="GenericSQL" driver-class="com.github.cassandra.jdbc.CassandraDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Cassandra/0.6.4/cassandra-jdbc-driver-0.6.4-shaded.jar</url>
+      </library>
+    </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
