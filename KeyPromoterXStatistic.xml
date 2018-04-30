@@ -566,6 +566,14 @@
           <Count>42</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'dev'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'dev'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'emulator.js 1.5 day ago'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -740,6 +748,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'demo.js'</Description>
           <Count>12</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'dev'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'dev'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'emulator.js 1.5 day ago'">
