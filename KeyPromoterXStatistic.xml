@@ -630,6 +630,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'rebuild-back-end'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'rebuild-back-end'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'schema.sql'... ">
         <Item>
           <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
