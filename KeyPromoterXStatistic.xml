@@ -204,7 +204,7 @@
           <IdeaActionID>ActivateGradleToolWindow</IdeaActionID>
           <ShortCut>'⌘8'</ShortCut>
           <Description>Gradle</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide">
@@ -340,6 +340,14 @@
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'Gradle'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'PartnersPortalApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'PartnersPortalApplication'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Start UI Server'">
@@ -571,7 +579,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Web'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'back-end'">
