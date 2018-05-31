@@ -40,6 +40,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Close Project">
+        <Item>
+          <IdeaActionID>CloseProject</IdeaActionID>
+          <ShortCut>'⇧⌘W'</ShortCut>
+          <Description>Close Project</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Commit Message History">
         <Item>
           <IdeaActionID>Vcs.ShowMessageHistory</IdeaActionID>
