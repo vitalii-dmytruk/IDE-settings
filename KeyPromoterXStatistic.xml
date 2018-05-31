@@ -574,6 +574,14 @@
           <Count>75</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'UI Server'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'UI Server'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'Unnamed'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
