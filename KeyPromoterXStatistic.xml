@@ -152,6 +152,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Docker">
+        <Item>
+          <IdeaActionID>ActivateDockerToolWindow</IdeaActionID>
+          <ShortCut>'⌃⌘V'</ShortCut>
+          <Description>Docker</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Down the stack trace">
         <Item>
           <ShortCut>'⌥⌘↓'</ShortCut>
@@ -547,7 +555,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Build Prod'</Description>
-          <Count>2</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Build UI Server'">
@@ -611,7 +619,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Tomcat Container'</Description>
-          <Count>3</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'UI Build'">
@@ -627,7 +635,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'UI Server'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'UI Tests'">
