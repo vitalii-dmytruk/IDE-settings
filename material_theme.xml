@@ -2,5 +2,6 @@
   <component name="MaterialThemeConfig">
     <option name="version" value="2.2.3.1" />
     <option name="selectedTheme" value="DARKER" />
+    <option name="accentColor" value="616161" />
   </component>
 </application>
