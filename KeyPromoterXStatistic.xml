@@ -157,7 +157,7 @@
           <IdeaActionID>ActivateDockerToolWindow</IdeaActionID>
           <ShortCut>'⌃⌘V'</ShortCut>
           <Description>Docker</Description>
-          <Count>9</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Down the stack trace">
@@ -571,7 +571,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Build Prod'</Description>
-          <Count>17</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Build UI Server'">
@@ -643,7 +643,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'UI Build'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'UI Server'">
@@ -651,7 +651,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'UI Server'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'UI Tests'">
@@ -916,6 +916,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'ThingsboardServerApplication'</Description>
           <Count>36</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'UI Build'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'UI Build'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'application [install]'">
