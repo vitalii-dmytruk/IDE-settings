@@ -619,7 +619,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Local Server'</Description>
-          <Count>12</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'PartnersPortalApplication'">
@@ -1139,6 +1139,14 @@
           <ShortCut>'⌥⌘↑'</ShortCut>
           <Description>Up the stack trace</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Update 'Local Server' application">
+        <Item>
+          <IdeaActionID>UpdateRunningApplication</IdeaActionID>
+          <ShortCut>'⌘F10'</ShortCut>
+          <Description>Update 'Local Server' application</Description>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="VCS Operations Popup...">
