@@ -382,6 +382,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'Install dependencies for react-listapp/package.json'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'Install dependencies for react-listapp/package.json'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'Local Server'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
