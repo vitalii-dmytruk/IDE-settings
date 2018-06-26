@@ -862,6 +862,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'spring.purchases in purchases'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'spring.purchases in purchases'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'system-data.sql'... ">
         <Item>
           <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
