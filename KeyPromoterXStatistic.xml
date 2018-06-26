@@ -926,6 +926,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run Gulp/Grunt/npm Task">
+        <Item>
+          <IdeaActionID>RunJsbtTask</IdeaActionID>
+          <ShortCut>'⌥F11'</ShortCut>
+          <Description>Run Gulp/Grunt/npm Task</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Show Diff">
         <Item>
           <IdeaActionID>Diff.ShowDiff</IdeaActionID>
@@ -1171,7 +1179,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
