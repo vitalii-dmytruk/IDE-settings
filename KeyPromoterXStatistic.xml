@@ -334,6 +334,14 @@
           <Count>59</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rename group">
+        <Item>
+          <IdeaActionID>IDEtalk.Rename</IdeaActionID>
+          <ShortCut>'F2'</ShortCut>
+          <Description>Rename group</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Replace in Path...">
         <Item>
           <IdeaActionID>ReplaceInPath</IdeaActionID>
