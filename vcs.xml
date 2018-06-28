@@ -186,8 +186,12 @@
           <option name="url" value="https://github.com/OlegKyluk/ExpenseManager.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Volodymyr-Dykun/Financial_Expenses.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Oleg_Kulik" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Volodymyr Dykun" />
   </component>
 </application>
