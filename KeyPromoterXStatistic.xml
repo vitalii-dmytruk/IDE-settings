@@ -181,7 +181,7 @@
           <IdeaActionID>ActivateDockerToolWindow</IdeaActionID>
           <ShortCut>'⌃⌘V'</ShortCut>
           <Description>Docker</Description>
-          <Count>11</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Down the stack trace">
