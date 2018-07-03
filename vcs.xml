@@ -198,8 +198,12 @@
           <option name="url" value="https://github.com/Papizh/moneyApp.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/tmasnyk/expenses.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Igor Papizh" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Taras Masnyk" />
   </component>
 </application>
