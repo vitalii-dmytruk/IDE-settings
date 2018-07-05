@@ -202,8 +202,12 @@
           <option name="url" value="https://github.com/tmasnyk/expenses.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Dmytro99/Exspenses-managment-application.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Taras Masnyk" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Dmytro Demkovych" />
   </component>
 </application>
