@@ -222,8 +222,12 @@
           <option name="url" value="https://github.com/BohdanTsiupryk/moneycounter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Vasyltsiruk/TestSolution.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Bohdan Tsiupryk" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Vasyl Tsiruk" />
   </component>
 </application>
