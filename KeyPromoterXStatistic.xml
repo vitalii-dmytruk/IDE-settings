@@ -659,7 +659,7 @@
           <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
           <ShortCut>'⌘4'</ShortCut>
           <Description>Run</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'All Tests'">
@@ -1043,7 +1043,7 @@
           <IdeaActionID>RunJsbtTask</IdeaActionID>
           <ShortCut>'⌥F11'</ShortCut>
           <Description>Run Gulp/Grunt/npm Task</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diff">
