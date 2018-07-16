@@ -275,7 +275,7 @@
           <IdeaActionID>HideAllWindows</IdeaActionID>
           <ShortCut>'⇧⌘F12'</ShortCut>
           <Description>Hide All Windows</Description>
-          <Count>3</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Jump to Console...">
@@ -462,6 +462,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'PurchaseRunnerTest.testOutputGreeting'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'PurchaseRunnerTest.testOutputGreeting'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'Start UI Server'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -638,6 +646,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Restore Windows">
+        <Item>
+          <IdeaActionID>HideAllWindows</IdeaActionID>
+          <ShortCut>'⇧⌘F12'</ShortCut>
+          <Description>Restore Windows</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Resume Program">
         <Item>
           <IdeaActionID>Resume</IdeaActionID>
@@ -764,6 +780,14 @@
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'PartnersPortalApplication'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'PurchaseRunnerTest.testOutputGreeting'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'PurchaseRunnerTest.testOutputGreeting'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Start UI Server'">
@@ -1116,6 +1140,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'Local Server'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'PurchaseRunnerTest.testOutputGreeting'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'PurchaseRunnerTest.testOutputGreeting'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Start UI Server'">
