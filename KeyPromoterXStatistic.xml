@@ -85,7 +85,7 @@
           <IdeaActionID>ActivateDatabaseToolWindow</IdeaActionID>
           <ShortCut>'⌘7'</ShortCut>
           <Description>Database</Description>
-          <Count>24</Count>
+          <Count>25</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug">
@@ -125,7 +125,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'⌃D'</ShortCut>
           <Description>Debug 'C2C'</Description>
-          <Count>7</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'Gradle'">
@@ -755,7 +755,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Gradle'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Local Server'">
@@ -892,6 +892,22 @@
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'build'</Description>
           <Count>27</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'class2career [clean]'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'class2career [clean]'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'class2career [dependencies]'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'class2career [dependencies]'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'demo.js'">
@@ -1339,7 +1355,7 @@
           <IdeaActionID>DatabaseView.SynchronizeAction</IdeaActionID>
           <ShortCut>'⌥⌘Y'</ShortCut>
           <Description>Synchronize</Description>
-          <Count>28</Count>
+          <Count>31</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
@@ -1347,7 +1363,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>9</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
