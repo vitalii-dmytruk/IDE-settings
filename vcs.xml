@@ -238,8 +238,12 @@
           <option name="url" value="https://github.com/halyafg/ExpensesManagement.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitlab.com:dimilabs/logger.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/test/Halyna Hoy" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/dimilabs.com" />
   </component>
 </application>
