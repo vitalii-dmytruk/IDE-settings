@@ -651,7 +651,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'http://localhost:8080/api/v1/idl/test_bi321/configuration/validate'</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'partners-portal [build]'">
@@ -1475,7 +1475,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>200</Count>
+          <Count>203</Count>
         </Item>
       </Statistic>
       <Statistic Action="Unshelve...">
