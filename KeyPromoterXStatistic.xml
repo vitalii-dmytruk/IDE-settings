@@ -467,7 +467,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'Application'</Description>
-          <Count>5</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'BoxResourceTest'">
@@ -483,7 +483,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'Build Prod'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Build UI Server'">
@@ -843,7 +843,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Build Prod'</Description>
-          <Count>29</Count>
+          <Count>30</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Build UI Server'">
@@ -1291,7 +1291,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'Application'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Build UI Server'">
@@ -1363,7 +1363,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'UI Server'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'application [install]'">
