@@ -403,7 +403,7 @@
           <IdeaActionID>ActivateRESTClientToolWindow</IdeaActionID>
           <ShortCut>'⌥5'</ShortCut>
           <Description>REST Client</Description>
-          <Count>10</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rebase...">
