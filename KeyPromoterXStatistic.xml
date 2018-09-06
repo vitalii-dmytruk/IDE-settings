@@ -30,7 +30,7 @@
           <IdeaActionID>CompileDirty</IdeaActionID>
           <ShortCut>'⌘F9'</ShortCut>
           <Description>Build Project</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close">
@@ -780,6 +780,22 @@
           <ShortCut>'⌘4'</ShortCut>
           <Description>Run</Description>
           <Count>11</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run '/Users/salo/projects...'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run '/Users/salo/projects...'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run '/Users/salo/projects/demo/spring-securing-web/complete/build.gradle (1)'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run '/Users/salo/projects/demo/spring-securing-web/complete/build.gradle (1)'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'All Tests'">
