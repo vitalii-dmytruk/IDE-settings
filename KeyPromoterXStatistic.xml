@@ -966,6 +966,14 @@
           <Count>64</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'Start'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'Start'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'ThingsboardInstallApplication'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
