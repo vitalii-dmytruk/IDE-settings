@@ -395,7 +395,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>4</Count>
+          <Count>15</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Structure...">
@@ -603,7 +603,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'UI Server'</Description>
-          <Count>6</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'application [clean]'">
@@ -811,7 +811,7 @@
           <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
           <ShortCut>'⌘4'</ShortCut>
           <Description>Run</Description>
-          <Count>16</Count>
+          <Count>19</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run '/Users/salo/projects...'">
@@ -859,7 +859,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'⌃⇧R'</ShortCut>
           <Description>Run 'Application'</Description>
-          <Count>10</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'BackendTests'">
@@ -1035,7 +1035,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'UI Server'</Description>
-          <Count>15</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'UI Tests'">
@@ -1603,7 +1603,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>16</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
