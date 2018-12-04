@@ -859,7 +859,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'Angular CLI Server'</Description>
-          <Count>3</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'App'">
@@ -1355,7 +1355,7 @@
           <IdeaActionID>LocalHistory.ShowHistory</IdeaActionID>
           <ShortCut>'⌃⌘L'</ShortCut>
           <Description>Show History</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show History for Selection">
@@ -1403,7 +1403,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'Angular CLI Server'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'App'">
