@@ -494,6 +494,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'Angular CLI Server (angular-cli)'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'Angular CLI Server (angular-cli)'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'Angular CLI Server'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -852,6 +860,14 @@
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'All Tests'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'Angular CLI Server (angular-cli)'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'Angular CLI Server (angular-cli)'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Angular CLI Server'">
