@@ -61,7 +61,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Component Declaration</Description>
-          <Count>37</Count>
+          <Count>38</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy">
@@ -340,6 +340,14 @@
           <ShortCut>'⇧⌘F12'</ShortCut>
           <Description>Hide All Windows</Description>
           <Count>6</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Implementation(s)">
+        <Item>
+          <IdeaActionID>GotoImplementation</IdeaActionID>
+          <ShortCut>'⌥⌘B' or '⌥⌘Button1 Click'</ShortCut>
+          <Description>Implementation(s)</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Jump to Console...">
