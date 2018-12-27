@@ -814,6 +814,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun in Debug Mode">
+        <Item>
+          <IdeaActionID>RunDashboard.Debug</IdeaActionID>
+          <ShortCut>'⌃⇧D'</ShortCut>
+          <Description>Rerun in Debug Mode</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Restore Windows">
         <Item>
           <IdeaActionID>HideAllWindows</IdeaActionID>
@@ -1699,7 +1707,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>283</Count>
+          <Count>284</Count>
         </Item>
       </Statistic>
       <Statistic Action="Unshelve...">
