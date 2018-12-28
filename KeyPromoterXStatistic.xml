@@ -61,7 +61,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Component Declaration</Description>
-          <Count>52</Count>
+          <Count>53</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy">
