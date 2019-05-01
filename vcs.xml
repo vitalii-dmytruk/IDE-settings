@@ -254,8 +254,12 @@
           <option name="url" value="git@gitlab.com:dimilabs/logger-configuration-ui.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/bodi44/souvenir-shop-app.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/temp" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/summer-camp/2019" />
   </component>
 </application>
