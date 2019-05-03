@@ -459,7 +459,7 @@
           <IdeaActionID>ActivateRESTClientToolWindow</IdeaActionID>
           <ShortCut>'⌥5'</ShortCut>
           <Description>REST Client</Description>
-          <Count>11</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rebase...">
@@ -595,6 +595,14 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'Install dependencies for react-listapp/package.json'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'IntelliartsApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'IntelliartsApplication'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -875,7 +883,7 @@
           <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
           <ShortCut>'⌘4'</ShortCut>
           <Description>Run</Description>
-          <Count>28</Count>
+          <Count>29</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run '/Users/salo/projects...'">
