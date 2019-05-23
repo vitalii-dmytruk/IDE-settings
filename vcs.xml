@@ -262,8 +262,16 @@
           <option name="url" value="https://github.com/stepanLys/intelliarts.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/NazarOliynyk/purchasesfront1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/NazarOliynyk/purchases_back1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/summer-camp/2019" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/summer-camp/2019/NazarOliynyk" />
   </component>
 </application>
