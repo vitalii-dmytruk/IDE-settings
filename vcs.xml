@@ -274,8 +274,16 @@
           <option name="url" value="https://github.com/Naprill/souvenir-shop.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/NazarOliynyk/purchasesfront2components.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/NazarOliynyk/purchases_back_2_admin.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/summer-camp/2019/NinaNovoselska" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/summer-camp/2019/NazarOliynyk" />
   </component>
 </application>
