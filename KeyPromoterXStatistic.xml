@@ -422,6 +422,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Open Command Dialog">
+        <Item>
+          <IdeaActionID>com.github.jk1.ytplugin.commands.OpenCommandWindowAction</IdeaActionID>
+          <ShortCut>'⇧⌘Y'</ShortCut>
+          <Description>Open Command Dialog</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Paste">
         <Item>
           <IdeaActionID>$Paste</IdeaActionID>
