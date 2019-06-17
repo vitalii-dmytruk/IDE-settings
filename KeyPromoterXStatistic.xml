@@ -109,7 +109,7 @@
           <IdeaActionID>DatabaseView.PropertiesAction</IdeaActionID>
           <ShortCut>'⌘I'</ShortCut>
           <Description>Data Source Properties</Description>
-          <Count>33</Count>
+          <Count>37</Count>
         </Item>
       </Statistic>
       <Statistic Action="Database">
@@ -1083,7 +1083,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'LuncherApplication'</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Main'">
@@ -1811,7 +1811,7 @@
           <IdeaActionID>DatabaseView.SynchronizeAction</IdeaActionID>
           <ShortCut>'⌥⌘Y'</ShortCut>
           <Description>Synchronize</Description>
-          <Count>50</Count>
+          <Count>51</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
