@@ -290,8 +290,12 @@
           <option name="url" value="https://gitlab.com/poodel/react-boilerplate.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/intelliarts/operation/service-switcher.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/intelliarts.com/luncher" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/intelliarts.com" />
   </component>
 </application>
