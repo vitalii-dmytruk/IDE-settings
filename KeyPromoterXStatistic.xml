@@ -806,6 +806,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'npm install in bench-web'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'npm install in bench-web'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'partners-portal [build]'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -1276,6 +1284,14 @@
           <ShortCut>'⌃⇧R'</ShortCut>
           <Description>Run 'demo.js'</Description>
           <Count>42</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'deploy'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'deploy'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'dev'">
