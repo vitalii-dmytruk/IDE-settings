@@ -261,7 +261,7 @@
           <IdeaActionID>ExternalSystem.DetachProject</IdeaActionID>
           <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
           <Description>Detach Gradle project</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Disconnect">
