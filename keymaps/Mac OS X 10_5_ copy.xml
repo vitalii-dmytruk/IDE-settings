@@ -18,6 +18,9 @@
   <action id="ActivateRunDashboardToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl meta v" />
+  </action>
   <action id="ActivateStructureToolWindow" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl meta q" />
