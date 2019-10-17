@@ -22,6 +22,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta v" />
   </action>
   <action id="ActivateStructureToolWindow" />
+  <action id="ActivateYouTrackToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl meta y" />
+  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl meta q" />
   </action>
