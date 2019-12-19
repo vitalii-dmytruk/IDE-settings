@@ -36,11 +36,14 @@
   </action>
   <action id="DuplicatesForm.SendToRight" />
   <action id="FileChooser.GotoProject" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
   <action id="Git.Rebase">
-    <keyboard-shortcut first-keystroke="ctrl meta b" />
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl meta p" />
