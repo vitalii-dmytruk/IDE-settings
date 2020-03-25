@@ -310,9 +310,17 @@
           <option name="url" value="https://gitlab.com/intelliarts/operation/users-service.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/intelliarts/operation/bonuses-web.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/intelliarts/operation/bonuses-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/intelliarts.com" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/intelliarts.com/bonuses" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
