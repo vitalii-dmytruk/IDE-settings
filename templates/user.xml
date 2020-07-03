@@ -1,56 +1,125 @@
 <templateSet group="user">
-  <template name="s" value="//TMP: remove this&#10;showProps($SELECTION$);" description="Log object details to foxlog" toReformat="true" toShortenFQNames="true" />
-  <template name="l" value="try {  &#10;  $SELECTION$&#10;} catch(e) {&#10;  __TOOLBARID__Context.logging.loggerFactory.getLogger(&quot;---------&quot;).error(&quot;$END$&quot; + e + &quot;. &quot; + (e.fileName ? (e.fileName + &quot;:&quot; + e.lineNumber) : e.stack));&#10;}&#10;" description="Surround with logger" toReformat="true" toShortenFQNames="true" />
-  <template name="forl" value="for(var $INDEX$ = 0, $LEN$ = $ARRAY$.length; $INDEX$ &lt; $LEN$; $INDEX$++) {&#10;  var $ITEM$ = $ARRAY$.item($INDEX$);&#10;  $END$&#10;}" description="Iterate elements of list" toReformat="true" toShortenFQNames="true">
+  <template name="l" value="try {  &#10;  $SELECTION$&#10;} catch(e) {&#10;  console.log(&quot;---------&quot;).error(&quot;$END$&quot; + e + &quot;. &quot; + (e.fileName ? (e.fileName + &quot;:&quot; + e.lineNumber) : e.stack));&#10;}&#10;" description="Surround with logger" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="forl" value="for(let $INDEX$ = 0, $LEN$ = $ARRAY$.length; $INDEX$ &lt; $LEN$; $INDEX$++) {&#10;  const $ITEM$ = $ARRAY$.item($INDEX$);&#10;  $END$&#10;}" description="Iterate elements of list" toReformat="true" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="" alwaysStopAt="true" />
     <variable name="LEN" expression="jsSuggestVariableName()" defaultValue="&quot;len&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="ITEM" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
-  <template name="fora" value="for(var $INDEX$ = 0, len = $ARRAY$.length; $INDEX$ &lt; len; $INDEX$++) {&#10;  var $ITEM$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+  <template name="fora" value="for(let $INDEX$ = 0, len = $ARRAY$.length; $INDEX$ &lt; len; $INDEX$++) {&#10;  const $ITEM$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="ITEM" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
-  <template name="fore" value="for(var $INDEX$ in $ARRAY$) {&#10;  var $ITEM$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+  <template name="fore" value="for(let $INDEX$ in $ARRAY$) {&#10;  const $ITEM$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="ITEM" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
   <template name="isg" value="var $NAME$;&#10;&#10;this.set$C_NAME$ = function(the$C_NAME$) {&#10;    $NAME$ = the$C_NAME$;&#10;};&#10;&#10;this.get$C_NAME$ = function(){&#10;    return $NAME$;&#10;};&#10;&#10;$END$" description="Insert Setter and Getter" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="SELECTION" defaultValue="" alwaysStopAt="true" />
     <variable name="C_NAME" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
   <template name="j" value="var $SELECTION$;&#10;&#10;this.set$C_NAME$ = function(the$C_NAME$) {&#10;    $SELECTION_COPY$ = the$C_NAME$;&#10;};&#10;&#10;this.get$C_NAME$ = function(){&#10;    return $SELECTION_COPY$;&#10;};$END$" description="Insert Setter and Getter bySelection" toReformat="true" toShortenFQNames="true">
     <variable name="C_NAME" expression="capitalize(SELECTION)" defaultValue="" alwaysStopAt="false" />
     <variable name="SELECTION_COPY" expression="SELECTION" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
   <template name="cm" value="this.$NAME$ = function($PARAMS$){&#10;    $END$&#10;};" description="Create Class Method" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="jsSuggestVariableName()" defaultValue="&quot;start&quot;" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
   <template name="de" value="describe(&quot;$Suite$&quot;, function(){&#10;    var $suite$;&#10;    beforeEach(function(){&#10;        var $suite$ = new $Suite$();&#10;            $END$    &#10;    });    &#10;});" description="Create Jasmine Suit" toReformat="true" toShortenFQNames="true">
     <variable name="Suite" expression="groovyScript(&quot;_1[0..-6]&quot;, fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <variable name="suite" expression="decapitalize(Suite)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
-  <template name="tae" value="//TMP: remove try-catch &#10;try {  &#10;  $SELECTION$&#10;} catch(e) {&#10;  alert(&quot;$METHOD$: &quot; + e + &quot;. &quot; + (e.fileName ? (e.fileName + &quot;:&quot; + e.lineNumber) : e.stack));&#10;}&#10;$END$&#10;" description="Alert exception temporary" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+  <template name="be" value="beforeEach(function(){    &#10;    $END$    &#10;});" description="Create beforeEach Function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
-  <template name="tav" value="//TMP: remove this&#10;alert(&quot;$METHOD$: $EXPR_COPY$ = &quot; + $EXPR$);&#10;$END$" description="Alert variable temporary" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="EXPR" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+  <template name="ae" value="afterEach(function(){    &#10;    $END$    &#10;});" description="Create afterEach Function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
-  <template name="be" value="beforeEach(function(){    &#10;    $END$    &#10;});" description="Create beforeEach Function" toReformat="true" toShortenFQNames="true" />
-  <template name="ae" value="afterEach(function(){    &#10;    $END$    &#10;});" description="Create afterEach Function" toReformat="true" toShortenFQNames="true" />
-  <template name="clv" value="//TMP: remove this&#10;console.log(&quot;$METHOD$: $EXPR_COPY$ = &quot; + $EXPR$);&#10;$END$" description="Log to console variable temporary" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="EXPR" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+  <template name="clv" value="// TMP: remove this&#10;console.log('$EXPR_COPY$', $EXPR$);&#10;$END$" description="Log to console variable temporary" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
-  <template name="cl" value="//TMP: remove this&#10;console.log(&quot;$CLASS$.$METHOD$: $EXPR$&quot;);&#10;$END$" description="Log to console temporary" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS" expression="jsQualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+  <template name="cl" value="// TMP: remove this&#10;console.log(&quot;$METHOD$: $EXPR$&quot;);&#10;$END$" description="Log to console temporary" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cf" value="const $NAME$ = ($PARAMS$) =&gt; {&#10;    $END$&#10;};" description="Create Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="jsSuggestVariableName()" defaultValue="&quot;start&quot;" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="csf" value="const $NAME$ = ($PARAMS$) =&gt; $END$;" description="Create Simple Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="jsSuggestVariableName()" defaultValue="&quot;start&quot;" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
 </templateSet>
