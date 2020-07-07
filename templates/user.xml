@@ -87,7 +87,7 @@
     </context>
   </template>
   <template name="clv" value="// TMP: remove this&#10;console.log('$EXPR_COPY$', $EXPR$);&#10;$END$" description="Log to console variable temporary" toReformat="true" toShortenFQNames="true">
-    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR" expression="suggestFirstVariableName(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="CoffeeScript" value="true" />
