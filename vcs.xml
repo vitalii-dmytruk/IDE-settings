@@ -322,6 +322,10 @@
           <option name="url" value="https://gitlab.com/intelliarts/operation/react-components.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/intelliarts/operation/google-sheets-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/projects/intelliarts.com" />
