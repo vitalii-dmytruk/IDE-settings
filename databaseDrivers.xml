@@ -1,5 +1,8 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="athena" dialect="PostgreSQL">
+      <artifact id="Athena" name="Athena" use="true" version="2.0.16" />
+    </driver>
     <driver id="mongo">
       <artifact id="MongoDB" name="MongoDB" use="true" version="1.11" />
     </driver>
