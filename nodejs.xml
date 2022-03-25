@@ -6,8 +6,8 @@
     <local-interpreter path="/usr/local/Cellar/node/17.4.0/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
-    <local-interpreter path="/usr/local/Cellar/node/12.3.1/bin/node">
-      <version-cache last-modified="0" />
+    <local-interpreter path="/usr/local/Cellar/node@14/14.19.1/bin/node">
+      <version-cache version="14.19.1" last-modified="1648220558053" />
     </local-interpreter>
     <local-interpreter path="$USER_HOME$/.gradle/nodejs/node-v4.2.3-darwin-x64/bin/node">
       <version-cache version="4.2.3" last-modified="1506440555000" />
