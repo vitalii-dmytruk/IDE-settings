@@ -4,6 +4,7 @@
       <map>
         <entry key="bigger.font.in.project.view" value="true" />
         <entry key="compiler.automake.allow.when.app.running" value="true" />
+        <entry key="confirm.rerun.with.termination" value="false" />
       </map>
     </option>
   </component>
