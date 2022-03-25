@@ -1,7 +1,16 @@
 <application>
   <component name="NodeJsLocalInterpreterManager">
-    <local-interpreter path="/usr/local/Cellar/node/12.3.1/bin/node" />
-    <local-interpreter path="/usr/local/bin/node" />
-    <local-interpreter path="$USER_HOME$/.gradle/nodejs/node-v4.2.3-darwin-x64/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/17.4.0/bin/node">
+      <version-cache version="17.4.0" last-modified="1643620074373" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="17.4.0" last-modified="1643620074373" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/12.3.1/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.gradle/nodejs/node-v4.2.3-darwin-x64/bin/node">
+      <version-cache version="4.2.3" last-modified="1506440555000" />
+    </local-interpreter>
   </component>
 </application>
