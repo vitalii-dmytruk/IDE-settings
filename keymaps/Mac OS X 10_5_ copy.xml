@@ -21,7 +21,9 @@
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="ctrl meta v" />
   </action>
-  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
   <action id="ActivateYouTrackToolWindow">
     <keyboard-shortcut first-keystroke="ctrl meta y" />
   </action>
