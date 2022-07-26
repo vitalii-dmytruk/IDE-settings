@@ -20,7 +20,7 @@
       <artifact id="MySQL Connector/J" name="MySQL Connector/J" use="true" version="5.1.46" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.3.3" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.4.0" />
     </driver>
     <driver id="c8b4443d-3505-44aa-a239-05cf2f1b2643" name="Dataferb driver" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
       <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
