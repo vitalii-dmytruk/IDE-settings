@@ -1,8 +1,9 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="80.209.233.94" id="121e4596-0d42-4158-907b-22e7494df16a" port="2" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
-      <sshConfig authType="PASSWORD" host="62.77.154.151" id="98a623dd-bf5d-47e7-b88c-02c183abf607" port="2" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="62.77.154.151" id="121e4596-0d42-4158-907b-22e7494df16a" port="2" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="78.47.247.251" id="98a623dd-bf5d-47e7-b88c-02c183abf607" port="2" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="80.209.233.94" id="b208dde9-b1fa-4bd7-9847-885e1313b72b" port="2" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
